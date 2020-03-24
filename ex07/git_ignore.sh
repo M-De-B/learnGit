@@ -1,2 +1,3 @@
-cat -e ~/Документы/learnGit/git.ignore
-echo ""
+git check-ignore $(find . ! -regex "\./\.git/.*")
+
+
